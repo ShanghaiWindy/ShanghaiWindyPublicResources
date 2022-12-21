@@ -1,0 +1,17 @@
+{
+    "name": "Enviro.Runtime.API",
+    "rootNamespace": "",
+    "references": [
+        "GUID:368322ece7118bc4d93cded7bd83f024",
+        "GUID:47f4f1ecaf049f14e818f13a72096b00"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
