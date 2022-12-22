@@ -18,6 +18,9 @@ output=$time-ShanghaiWindyPublicResources.zip
 
 mkdir $releaseName
 
+cp -r  com.jbooth.microsplat.core $releaseName/com.jbooth.microsplat.core
+cp -r  com.jbooth.microsplat.procedural-texture $releaseName/com.jbooth.microsplat.procedural-texture
+cp -r  com.jbooth.microsplat.urp2021 $releaseName/com.jbooth.microsplat.urp2021
 cp -r  com.jbooth.microverse $releaseName/com.jbooth.microverse
 cp -r  com.jbooth.microverse.ambiance $releaseName/com.jbooth.microverse.ambiance
 cp -r  com.jbooth.microverse.demo $releaseName/com.jbooth.microverse.demo
