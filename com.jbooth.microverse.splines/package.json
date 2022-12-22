@@ -9,7 +9,6 @@
   },
   "unity": "2021.3",
   "dependencies": {
-    "com.unity.splines": "2.0.0-pre.2"
   },
   "description": "The MicroVerse Spline system allows for realtime carving and texturing of terrains",
   "keywords": [
