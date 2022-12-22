@@ -21,7 +21,7 @@ mkdir $releaseName
 cp -r  com.jbooth.microverse $releaseName/com.jbooth.microverse
 cp -r  com.jbooth.microverse.ambiance $releaseName/com.jbooth.microverse.ambiance
 cp -r  com.jbooth.microverse.demo $releaseName/com.jbooth.microverse.demo
-cp -r  com.jbooth.microverse.splines_2021 $releaseName/com.jbooth.microverse.splines_2021
+cp -r  com.jbooth.microverse.splines_2021 $releaseName/com.unity.splines
 cp -r  com.jbooth.microverse.vegetation $releaseName/com.jbooth.microverse.vegetation
 cp -r  Shares $releaseName/Shares
 
