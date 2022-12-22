@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ede25ccd6fd4e8e98a828e1f7c552d, type: 3}
+  m_Name: CastleValleyCollection1-Trees
+  m_EditorClassIdentifier: 
+  contentType: 2
+  author: Rowlan
+  packName: Castle Valley Collection 1
+  id: Castle Valley Collection 1
+  previewGradient: {fileID: 0}
+  contents:
+  - prefab: {fileID: 4293903618740333564, guid: d66e7f2fc7556fd4abc5db44e1ff5e5d, type: 3}
+    previewImage: {fileID: 2800000, guid: bffc500284a1f3b409dcffbbdfc68960, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: Rocks on flat terrain with rock piles. Requires very flat slope
+  - prefab: {fileID: 3873012280024047519, guid: da162da60a923d94ba192f40782bb0bc, type: 3}
+    previewImage: {fileID: 2800000, guid: d55d08b37071bf643905ebf95343f1ac, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: Bigger spires with rock piles around them
+  - prefab: {fileID: 7617208432500738124, guid: 34b8b7ba3b2bab84fac365207360d05b, type: 3}
+    previewImage: {fileID: 2800000, guid: d3788a7b42645984faa1565c2f8f8bd2, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: Desert plants along the slope
+  - prefab: {fileID: 477436427342415712, guid: 6b2fb1f7b755fe84f81e12c6a05796e2, type: 3}
+    previewImage: {fileID: 2800000, guid: d6e3e255361cdd2468c332b91feb9e27, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: Desert trees
