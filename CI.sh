@@ -9,7 +9,7 @@ read comment
 # 提交 Commit
 git add .
 git commit -m "$comment"
-git push origin
+git push
 git push gitlab
 
 # 创建缓存工程
