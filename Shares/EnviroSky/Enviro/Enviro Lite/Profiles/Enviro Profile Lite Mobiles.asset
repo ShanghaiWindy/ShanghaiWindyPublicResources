@@ -576,9 +576,7 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 0
     updateDefaultEnvironmentReflections: 0
-    reflectionCloudsQuality: {fileID: 0}
   volumeLightSettings:
-    Resolution: 2
     dirVolumeLighting: 1
     SampleCount: 8
     ScatteringCoef:
@@ -1072,20 +1070,6 @@ MonoBehaviour:
     dithering: 0.015
     setEnviroSkybox: 1
   cloudsSettings:
-    cloudsQualitySettings:
-      bottomCloudHeight: 3000
-      topCloudHeight: 7000
-      raymarchSteps: 150
-      stepsInDepthModificator: 0.75
-      transmissionToExit: 0.05
-      cloudsRenderResolution: 1
-      reprojectionPixelSize: 0
-      lodDistance: 0.5
-      baseNoiseUV: 20
-      detailNoiseUV: 50
-      useCurlNoise: 0
-      baseQuality: 0
-      detailQuality: 0
     cloudsWorldScale: 120000
     cloudsHeightMod: 0
     cloudsSkyFogHeightBlending: 15000
@@ -1466,7 +1450,7 @@ MonoBehaviour:
   fogSettings:
     Fogmode: 2
     useSimpleFog: 0
-    useUnityFog: 0
+    useUnityFog: 1
     distanceFog: 1
     useRadialDistance: 1
     startDistance: 0
@@ -1475,7 +1459,7 @@ MonoBehaviour:
     heightFog: 1
     height: 54.49
     heightFogIntensity: 1
-    heightDensity: 1.95
+    heightDensity: 0
     noiseIntensity: 1
     noiseIntensityOffset: 0.3
     noiseScale: 0.001
@@ -1824,57 +1808,13 @@ MonoBehaviour:
   qualitySettings:
     GlobalParticleEmissionRates: 1
     UpdateInterval: 0.5
-  auroraSettings:
-    auroraIntensity:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0.1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    auroraColor: {r: 0.1, g: 0.5, b: 0.7, a: 1}
-    auroraBrightness: 75
-    auroraContrast: 10
-    auroraHeight: 20000
-    auroraScale: 0.01
-    auroraSteps: 20
-    auroraLayer1Settings: {x: 0.1, y: 0.1, z: 0, w: 0.5}
-    auroraLayer2Settings: {x: 5, y: 5, z: 0, w: 0.5}
-    auroraColorshiftSettings: {x: 0.05, y: 0.05, z: 0, w: 5}
-    auroraSpeed: 0.005
   viewMode: 3
   viewModeLW: 2
   showPlayerSetup: 0
   showRenderingSetup: 0
   showComponentsSetup: 0
-  showTimeUI: 0
-  showWeatherUI: 0
+  showTimeUI: 1
+  showWeatherUI: 1
   showAudioUI: 0
   showEffectsUI: 1
   modified: 0
